@@ -9,4 +9,5 @@ https://cdkworkshop.com
 
 Lessons learned:
 
-1. Non-empty DynamoDB table is not removed upon `cdk destroy`
+1. `cdk bootstrap` is required to start, which creates an S3 bucket for holding infra state.
+2. Non-empty DynamoDB table is not removed upon `cdk destroy`
