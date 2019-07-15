@@ -1,3 +1,7 @@
+### This sample app is based on and makes a heavy use of the code snippets provided in https://cdkworkshop.com
+
+Thanks for the great workshop!
+
 # Useful commands
 
  * `npm run build`   compile typescript to js
