@@ -1,0 +1,25 @@
+{
+  "name": "lambda-apigateway",
+  "version": "0.1.0",
+  "bin": {
+    "lambda-apigateway": "bin/lambda-apigateway.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "8.10.45",
+    "typescript": "^3.3.3333",
+    "ts-node": "^8.1.0",
+    "aws-cdk": "^1.0.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.0.0",
+    "@aws-cdk/aws-dynamodb": "^1.0.0",
+    "@aws-cdk/aws-lambda": "^1.0.0",
+    "@aws-cdk/core": "^1.0.0",
+    "cdk-dynamo-table-viewer": "^3.0.2"
+  }
+}
