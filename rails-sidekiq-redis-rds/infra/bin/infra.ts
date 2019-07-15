@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import cdk = require('@aws-cdk/core');
-import { InfraStack } from '../lib/infra-stack';
+import { RailsSidekiqRedisRwStack } from '../lib/rails-sidekiq-redis-rw-stack';
 
 const app = new cdk.App();
-new InfraStack(app, 'InfraStack');
+new RailsSidekiqRedisRwStack(app, 'RailsSidekiqRedisRwStack');
