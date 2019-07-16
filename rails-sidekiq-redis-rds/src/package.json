@@ -1,5 +1,7 @@
 {
   "name": "rails-sidekiq-redis-rds",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@aws-cdk/aws-elasticloadbalancingv2": "^1.0.0"
+  }
 }

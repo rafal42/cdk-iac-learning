@@ -4,4 +4,8 @@ import cdk = require('@aws-cdk/core');
 import { RailsSidekiqRedisRwStack } from '../lib/rails-sidekiq-redis-rw-stack';
 
 const app = new cdk.App();
-new RailsSidekiqRedisRwStack(app, 'RailsSidekiqRedisRwStack');
+new RailsSidekiqRedisRwStack(app, 'RailsSidekiqRedisRwStack', {
+  env: {
+    region: 'eu-central-1'
+  }
+});
